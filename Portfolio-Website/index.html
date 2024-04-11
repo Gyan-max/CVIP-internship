@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gyan-Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- nav menu -->
+        <div class="container">
+            <nav id="header">
+                <div class="nav-logo">
+                    <p class="nav-name">Gyan</p>
+                </div>
+                <div class="nav-menu" id="mynavmenu">
+                    <ul class="nav-menu_list">
+                        <li class="nav_list">
+                            <a href="#home" class="nav-link active-link">Home</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#about" class="nav-link ">About</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#projects" class=" nav-link ">Projects</a>
+                            <div class="circle"></div>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#contact" class="nav-link  ">Contact</a>
+                            <div class="circle"></div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Dark Mode -->
+                <div class="mode">
+                    <div class="moon-sun" id="toogle-switch">
+                        <i class="fa fa-moon" id="moon"></i>
+                        <i class="fa fa-sun" id="sun"></i>
+                    </div>
+                </div>
+                <div class="nav-menu-btn">
+                    <i class="uil uil-bars" onclick="mymenufunction()"> </i>
+                </div>
+            </nav>
+
+            <!-- Main -->
+
+            <main class="wrapper">
+                <section class="featured-box" id="home">
+                    <div class="featured-text">
+                        <div class="hello">
+                            <p> Hello 👋, My self </p>
+                        </div>
+                        <div class="featured-name">
+                            <span class="typedtext"></span>
+                        </div>
+                        <div class="text-info">
+                            <p> My name is Gyan Ranjan! I am a Passionate Web Developer from India.</p>
+                        </div>
+                        <div class="text-btn">
+                            <button class="btn hire-btn">Hire Me</button>
+                            <button class="btn">Download CV <i class="uil uil-file"></i></button>
+                        </div>
+                        <div class="social_icons">
+                            <div class="icon_circle"></div>
+                            <div class="icon"><i class="uil uil-instagram"></i></div>
+                            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                            <div class="icon"><i class="uil uil-github"></i></div>
+                            <div class="icon"><i class="uil uil-twitter"></i></div>
+                        </div>
+                    </div>
+                    <div class="featured-image">
+                        <img src="" alt="" </div>
+                </section>
+                <!-- About box -->
+                <section class="section" id="about">
+                    <div class="top-header">
+                        <h1>About Me</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="about-info">
+                                <figure class="about-me">
+                                    <figcaption>
+                                        <img src="" alt="" class="profile" />
+                                        <h2> Web Developer</h2>
+                                        <p>My name is Gyan Ranjan! I am a Passionate Web Developer from India.</p>
+
+                                </figure>
+                                <button class="about-me-btn">Hire Me</button>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">HTML</span>
+                                <div class="skill-bar html">
+                                    <span class="skill-per">
+                                        <span class="tooltip">85%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">CSS</span>
+                                <div class="skill-bar css">
+                                    <span class="skill-per">
+                                        <span class="tooltip">70%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">JAVASCRIPT</span>
+                                <div class="skill-bar javascript">
+                                    <span class="skill-per">
+                                        <span class="tooltip">50%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">PYTHON</span>
+                                <div class="skill-bar python">
+                                    <span class="skill-per">
+                                        <span class="tooltip">70%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">REACT JS</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per reactjs">
+                                        <span class="tooltip">40%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Projects Box-->
+                <section class="section" id="projects">
+                    <div class="top-header">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="project-container">
+                        <div class="project-box">
+                            <i class="uil uil-briefcase-alt"></i>
+                            <h3>Completed</h3>
+                            <label>20+ Finished Projects</label>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clients</h3>
+                        <label>70+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label>2+ Years Experience</label>
+                    </div>
+                </section>
+                <!-- Contact Box -->
+                <section class="section" id="contact">
+                    <div class="top-header">
+                        <h1> Let's Work Together</h1>
+                        <span>Have a project? Let's get in touch.
+                            <i class="uil uil-message"></i>
+                        </span>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="contact-info">
+                                <h3>Get in Touch <i class="uil uil-corner-right-down"></i></h3>
+                                <p>Feel free to contact me for any project or collaboration.</p>
+                                <p><i class="uil uil-envelope"></i><a href="mailto:"> gyanranjan4427@gmail.com</a></p>
+                                <p><i class="uil uil-phone"></i><a href="tel:"> 9263586504</a></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-control">
+                                <div class="form-input">
+                                    <input type="text" class="input-field" placeholder="Name">
+                                    <input type="email" class="input-field" placeholder="Email">
+                                </div>
+                                <div class="text-area">
+                                    <input type="text" class="input-subject" placeholder="Subject">
+                                    <textarea placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button class="btn">Send Message<i class="uil uil-message"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- Footer -->
+            <footer>
+                <div class="middle-footer">
+                    <ul class="footer-menu">
+                        <li class="footer_menu_list">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-social-icons">
+                    <div class="icon_circle"></div>
+                    <div class="icon"><i class="uil uil-instagram"></i></div>
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon"><i class="uil uil-github"></i></div>
+                    <div class="icon"><i class="uil uil-twitter"></i></div>
+                </div>
+                <p> Copyright &copy; <a href="#home" style="text-decoration: none;">Gyan Ranjan</a> - All Rights
+                    Reserved 2024</p>
+            </footer>
+        </div>
+    </body>
+
+</html>
